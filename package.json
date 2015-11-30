@@ -1,0 +1,40 @@
+{
+  "name": "xlsx-node",
+  "version": "0.1.1",
+  "description": "A simple XLSX Node library for reading and writing Excel file, including merger cell and setting cell size etc.",
+  "author": "[linder0209](linder0209@126.com)",
+  "maintainers": [
+    {
+      "name": "Linder Wang",
+      "email": "linder0209@126.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+	  "test": "nodeunit test"
+  },
+  "keywords": [
+    "excel",
+    "xlsx",
+    "node"
+  ],
+  "dependencies": {
+    "xlsx": "^0.8.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "nodeunit": "^0.9.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:demones/xlsx-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demones/xlsx-node/issues"
+  },
+  "license": "Apache-2.0"
+}
